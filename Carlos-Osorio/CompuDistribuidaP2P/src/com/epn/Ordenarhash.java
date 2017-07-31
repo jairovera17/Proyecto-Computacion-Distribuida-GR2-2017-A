@@ -13,7 +13,7 @@ import static com.epn.P2P.hashrecibido;
  *
  * @author CARLOS OSORIO
  */
-public class Ordenarhash {
+public class ordenarhashutil {
     static HashMap< Integer, String> hashrecibido;
     int valor;
     static HashMap< Integer, String> hashaenviar;
