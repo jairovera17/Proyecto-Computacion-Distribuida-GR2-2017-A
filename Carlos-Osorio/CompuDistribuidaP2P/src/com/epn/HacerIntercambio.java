@@ -25,7 +25,7 @@ import static com.epn.P2P.puertoser;
  */
 public class HacerIntercambio {
 
-public void intercambiar(HashMap< Integer, String> hash1, DatagramPacket socket) throws IOException {
+public void intercambiarhashinnecesario(HashMap< Integer, String> hash1, DatagramPacket socket) throws IOException {
         
         for (Map.Entry entry : hash1.entrySet()) {
         byte [] mensaje = new byte[256];
